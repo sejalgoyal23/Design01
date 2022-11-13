@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 800px;
+}
+#main{
+    width: 90%;
+    height: 785px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #E2E2E2;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+#first{
+    width: 92%;
+    height: 100vh;
+    background-color: #F3F3F3;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 4%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+#nav{
+    margin-top: 40px;
+    background-color: ;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+#coll{
+    display: flex;
+    gap: 4px;
+    position: relative;
+}
+#coll h1{
+    font-size: 18px;
+    font-weight: 520;
+    font-family: Gilroy;
+    color: rgb(17, 17, 17);
+    letter-spacing: -1px;
+   margin-top: 1px;
+}
+#logo{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    
+}
+#logo h2{
+    color:white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+#coll span{
+    color: white;
+}
+#link{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+#link a{
+    text-decoration: none;
+    color: #a8a8ab;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 550;
+}
+#circle{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1.5px solid #A4A4A7;
+    border-radius: 50%;
+    position: relative;
+}
+#circle i{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: rgb(24, 23, 23);
+    font-weight: 550;
+}
+#link a:hover{
+    color: black;
+    z-index: 999;
+    border-bottom: 1.5px solid black;
+}
+#text{
+     
+    width: 35%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+}
+#text h1{
+    font-family: "Gilroy";
+    font-size: 50px;
+    font-weight: 550;
+    
+    
+}
+#text h6{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Gilroy";
+    color:#c4c4c6;
+}
+#mail{
+    width: 32%;
+    height: 9.5%;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: #e7e7e8;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#mail input[type=email]{
+ top: 33%;
+ position: absolute;
+ left: 13%;
+ /*color: #e1e1e4;*/
+ color: black;
+ font-family: "Gilroy";
+ font-size: 13px;
+ font-weight: 500;
+ background-color: #e7e7e8 ;
+ border: 0.1px solid transparent;
+ padding: 3px;
+}
+#mail input:focus{
+    outline: none;
+    border: 2px solid transparent;
+    /*box-shadow: 0 0 10px #79797a;*/
+}
+#mail i{
+    top: 37%;
+    position: absolute;
+    left: 7%;
+    /*color:#d0d0d2;*/
+    color: #b6b6b8;
+    font-size: 16px;
+    font-weight: 500;
+}
+#mail input[type=submit]{
+    top: 16%;
+    position: absolute;
+    left: 72%;
+    color: #cbcbce;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 500;
+    background-color: black;
+    border: 0.1px solid transparent;
+    padding: 12px 22px;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+   }
+   #mail input[type=submit]:hover{
+    background-color: rgb(156, 155, 155);
+   } 
+#sticker{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    width: 19%;
+    height: 50%;
+    z-index: 999999;
+    background-color: #fafafe;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+#photo{
+    width: 90%;
+    height: 60%;
+    background-image: url(https://media.nftb.io/media/thumbnails/nfts/HDl8g4zao1uwDYcFohKGx31649236276320.jpg);
+    margin-top: 10px; 
+    margin-left: 5%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#down{
+    width: 100%;
+    height: 13%;
+    background-color: black;
+    top: 87%;
+    position: absolute;
+    border-bottom-left-radius: 26.5px;
+    border-bottom-right-radius: 26.5px;
+
+}
+#sticker h4{
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#sticker h5{
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 550;
+    color: #cbcbce;
+    margin-left: 10px;
+}
+#down h3{
+    color: rgb(244, 241, 241);
+    font-family: "Gilroy";
+    font-size: 10px;
+    font-weight: 550;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+#link span{
+    color: black;
+}
+#down span{
+    color: black;
+}
+#photo2{
+    right: 20%;
+    top: 13%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+     
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/photos/handsome-young-businessman-picture-id997770954?k=20&m=997770954&s=612x612&w=0&h=w3un4RDryiFU5NOGlC8fa6JRNXN9B-xjCrdiXQISUiM=);
+    background-size: cover;
+    background-position: center;
+}
+#photo3{
+    right: 10%;
+    top: 70%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #A4A4A7;
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/864456220/photo/abstract-space-or-time-travel-concept-background-intergalactic-exploration-supernova.jpg?s=612x612&w=0&k=20&c=buuhgQaFIM0K-Rsup7wH4IhD5L_Lv7WoQCFqNzdJ8jc=);
+    background-size: cover;
+    background-position: center;
+}
+#photo4{
+    right: 8%;
+    top: 13%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+     
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1037004258/photo/lighten-up-going-down-button-for-lift-elevetor.jpg?s=612x612&w=0&k=20&c=O7LySTmgBU2FyReTW7jjb29kJ5W6DXMHyM8nJlHVnZo=);
+    background-size: cover;
+    background-position: center;
+}
+#sticker2{
+    position: absolute;
+    top: 22%;
+    left: 64%;
+    width: 17%;
+    height: 42%;
+    z-index: 9999;
+    background-color: #f7f7fb;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: rotate(-22deg);
+}
+#photos{
+    width: 90%;
+    height: 60%;
+    background-image: url(https://ipfs.io/ipfs/QmPqA7y6m8THjfxDCV45Ta61eUhdxN76oCaMkPWp7W6epD);
+    margin-top: 10px;
+    margin-left: 5%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#sticker2 h4{
+    font-family: "Gilroy";
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#sticker2 h5{
+    font-family: "Gilroy";
+    font-size: 12px;
+    font-weight: 550;
+    color: #cbcbce;
+    margin-left: 10px;
+}
+#down2{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(137, 135, 135);
+    top: 87%;
+    position: absolute;
+    border-bottom-left-radius: 26.5px;
+    border-bottom-right-radius: 26.5px;
+
+}
+#line{
+    top: 82px;
+    left: 41%;
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    background-color: black;
+}
+#texts{
+    top: 88%;
+    position: absolute;
+    left: 10%;
+
+}
+#texts h2{
+    font-family: "Gilroy";
+    font-weight: 550;
+    color: rgb(12, 12, 12);
+}
+#textleft{
+    top: 88%;
+    position: absolute;
+    right: 10%;
+
+}
+#textleft h3{
+    font-family: "Gilroy";
+    font-weight: 500;
+    color: #cbcbce;
+    font-size: 18px;
+}
+#main #second{
+     
+    width: 92%;
+    height: 100px;
+    background-color: #F3F3F3;
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 4%;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+#photo5{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(142, 142, 146);
+    position: absolute;
+    left: 10%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    background-image: url(https://pbs.twimg.com/media/FE1jckDWYAUk0_8?format=jpg&name=large);
+    background-position: top;
+    background-size: cover;
+}
+#photo6{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(146, 146, 149);
+    position: absolute;
+    left: 31%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    background-image: url(https://ipfs.io/ipfs/QmRf8XWDy9ymGKRXtHaHTgTMZZ4f4AWzNrzxySvwhkoDSK);
+    background-position: top;
+    background-size: cover;
+}
+#photo7{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(150, 150, 155);
+    position: absolute;
+    left: 51%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    background-image: url(https://media.nftb.io/media/thumbnails/nfts/DDJ1POOzXtHgYeWJwmtdHs1649191177243.jpg);
+    background-position: top;
+    background-size: cover;
+}
+#photo8{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(138, 138, 143);
+    position: absolute;
+    left: 71%;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    background-image: url(https://preview.redd.it/22rtuql76d081.png?width=457&format=png&auto=webp&s=7b588483a73d96d03f58d3d384f134758edd28ad);
+    background-position: top;
+    background-size: cover;
+}

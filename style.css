@@ -30,17 +30,14 @@ html,body{
 }
 #nav{
     margin-top: 40px;
-    background-color: ;
     height: 60px;
     justify-content: space-around;
     align-items: center;
     display: flex;
-
 }
 #coll{
     display: flex;
     gap: 4px;
-    position: relative;
 }
 #coll h1{
     font-size: 18px;
@@ -54,8 +51,6 @@ html,body{
     width: 25px;
     height: 25px;
     background-color: black;
-    position: absolute;
-    
 }
 #logo h2{
     color:white;
@@ -63,9 +58,7 @@ html,body{
     margin-left: 5px;
     margin-top: 1px;
 }
-#coll span{
-    color: white;
-}
+ 
 #link{
     justify-content: space-between;
     align-items: center;

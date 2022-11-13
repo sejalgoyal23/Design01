@@ -131,7 +131,6 @@ html,body{
  top: 33%;
  position: absolute;
  left: 13%;
- /*color: #e1e1e4;*/
  color: black;
  font-family: "Gilroy";
  font-size: 13px;
@@ -143,13 +142,11 @@ html,body{
 #mail input:focus{
     outline: none;
     border: 2px solid transparent;
-    /*box-shadow: 0 0 10px #79797a;*/
 }
 #mail i{
     top: 37%;
     position: absolute;
     left: 7%;
-    /*color:#d0d0d2;*/
     color: #b6b6b8;
     font-size: 16px;
     font-weight: 500;
@@ -357,7 +354,6 @@ html,body{
     font-size: 18px;
 }
 #main #second{
-     
     width: 92%;
     height: 100px;
     background-color: #F3F3F3;
@@ -370,7 +366,6 @@ html,body{
 #photo5{
     width: 180px;
     height: 100px;
-    background-color: rgb(142, 142, 146);
     position: absolute;
     left: 10%;
     border-top-left-radius: 27px;
@@ -382,7 +377,6 @@ html,body{
 #photo6{
     width: 180px;
     height: 100px;
-    background-color: rgb(146, 146, 149);
     position: absolute;
     left: 31%;
     border-top-left-radius: 27px;
@@ -394,7 +388,6 @@ html,body{
 #photo7{
     width: 180px;
     height: 100px;
-    background-color: rgb(150, 150, 155);
     position: absolute;
     left: 51%;
     border-top-left-radius: 27px;
@@ -406,7 +399,6 @@ html,body{
 #photo8{
     width: 180px;
     height: 100px;
-    background-color: rgb(138, 138, 143);
     position: absolute;
     left: 71%;
     border-top-left-radius: 27px;
